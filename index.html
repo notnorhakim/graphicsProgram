@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Graphics Web Projects</title>
+    <style>
+        /* Reset default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6e45e2, #88d3ce);
+            color: #fff;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 30px;
+        }
+
+        .project-button {
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 20px;
+            text-decoration: none;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            font-size: 1.2em;
+            transition: transform 0.3s ease, background 0.3s ease;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My Graphics Web Projects</h1>
+
+    <div class="button-container">
+        <a href="3DSinGames/index.html" class="project-button">3D Sin Games</a>
+        <a href="angryBirdClone/index.html" class="project-button">Angry Bird Clone</a>
+        <a href="astroidGameClone/index.html" class="project-button">Astroid Game Clone</a>
+        <a href="averageFace/index.html" class="project-button">Average Face</a>
+        <a href="instagramFilter/index.html" class="project-button">Instagram Filter</a>
+        <a href="Maurer Rose/index.html" class="project-button">Maurer Rose</a>
+        <a href="solarSystem/index.html" class="project-button">Solar System</a>
+        <a href="wavingdots/index.html" class="project-button">Waving Dots</a>
+    </div>
+
+    <footer>
+        &copy; 2024 My Graphics Web Projects
+    </footer>
+</body>
+</html>
